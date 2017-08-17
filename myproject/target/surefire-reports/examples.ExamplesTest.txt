@@ -1,0 +1,14 @@
+-------------------------------------------------------------------------------
+Test set: examples.ExamplesTest
+-------------------------------------------------------------------------------
+Tests run: 10, Failures: 0, Errors: 2, Skipped: 0, Time elapsed: 17.894 sec <<< FAILURE!
+Then status 500(Scenario: delete a character)  Time elapsed: 0.015 sec  <<< ERROR!
+com.intuit.karate.exception.KarateException: status code was: 204, expected: 500, response time: 406, url: http://localhost:8080/api/characters/2, response: 
+	at com.intuit.karate.StepDefs.status(StepDefs.java:458)
+	at ?.Then status 500(examples/character/character.feature:27)
+
+Scenario: delete a character  Time elapsed: 0.015 sec  <<< ERROR!
+com.intuit.karate.exception.KarateException: status code was: 204, expected: 500, response time: 406, url: http://localhost:8080/api/characters/2, response: 
+	at com.intuit.karate.StepDefs.status(StepDefs.java:458)
+	at ?.Then status 500(examples/character/character.feature:27)
+

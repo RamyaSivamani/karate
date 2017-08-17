@@ -1,0 +1,741 @@
+14:56:01.762 [main] DEBUG c.i.karate.cucumber.CucumberRunner - init test class: class examples.ExamplesTest
+14:56:04.263 [main] DEBUG c.i.karate.cucumber.CucumberRunner - loading feature: /C:/Users/ramya.s/karate/myproject/target/test-classes/examples/character/character.feature
+14:56:04.696 [main] DEBUG c.i.karate.cucumber.CucumberRunner - loading feature: /C:/Users/ramya.s/karate/myproject/target/test-classes/examples/users/users.feature
+14:56:12.909 [main] INFO  com.intuit.karate - karate.env system property was: null 
+14:56:14.347 [main] INFO  com.intuit.karate - karate.env system property was: null 
+14:56:23.272 [main] DEBUG com.intuit.karate - 
+1 > GET https://jsonplaceholder.typicode.com/users
+1 > Accept-Encoding: gzip,deflate
+1 > Connection: Keep-Alive
+1 > Host: jsonplaceholder.typicode.com
+1 > User-Agent: Apache-HttpClient/4.5.3 (Java/1.8.0_121)
+
+14:57:06.447 [main] ERROR com.intuit.karate - org.apache.http.conn.HttpHostConnectException: Connect to jsonplaceholder.typicode.com:443 [jsonplaceholder.typicode.com/104.31.86.157, jsonplaceholder.typicode.com/104.31.87.157] failed: Connection timed out: connect, http call failed after 51437 milliseconds for URL: https://jsonplaceholder.typicode.com/users
+14:57:06.612 [main] INFO  com.intuit.karate - karate.env system property was: null 
+14:57:06.737 [main] DEBUG com.intuit.karate - 
+1 > POST https://jsonplaceholder.typicode.com/users
+1 > Accept-Encoding: gzip,deflate
+1 > Connection: Keep-Alive
+1 > Content-Length: 160
+1 > Content-Type: application/json
+1 > Host: jsonplaceholder.typicode.com
+1 > User-Agent: Apache-HttpClient/4.5.3 (Java/1.8.0_121)
+{"name":"Test User","username":"testuser","email":"test@user.com","address":{"street":"Has No Name","suite":"Apt. 123","city":"Electri","zipcode":"54321-6789"}}
+
+14:57:48.392 [main] ERROR com.intuit.karate - org.apache.http.conn.HttpHostConnectException: Connect to jsonplaceholder.typicode.com:443 [jsonplaceholder.typicode.com/104.31.86.157, jsonplaceholder.typicode.com/104.31.87.157] failed: Connection timed out: connect, http call failed after 41669 milliseconds for URL: https://jsonplaceholder.typicode.com/users
+14:58:41.282 [main] DEBUG c.i.karate.cucumber.CucumberRunner - init test class: class examples.ExamplesTest
+14:58:41.809 [main] DEBUG c.i.karate.cucumber.CucumberRunner - loading feature: /C:/Users/ramya.s/karate/myproject/target/test-classes/examples/character/character.feature
+14:58:41.938 [main] DEBUG c.i.karate.cucumber.CucumberRunner - loading feature: /C:/Users/ramya.s/karate/myproject/target/test-classes/examples/users/users.feature
+14:58:44.872 [main] INFO  com.intuit.karate - karate.env system property was: null 
+14:58:47.042 [main] DEBUG com.intuit.karate - 
+1 > POST http://localhost:8080/api/characters
+1 > Accept-Encoding: gzip,deflate
+1 > Connection: Keep-Alive
+1 > Content-Length: 22
+1 > Content-Type: application/json
+1 > Host: localhost:8080
+1 > User-Agent: Apache-HttpClient/4.5.3 (Java/1.8.0_121)
+{"id":4,"name":"User"}
+
+14:58:47.409 [main] DEBUG com.intuit.karate - 
+1 < 200
+1 < Content-Type: application/json;charset=UTF-8
+1 < Date: Thu, 17 Aug 2017 09:28:47 GMT
+1 < Server: Apache-Coyote/1.1
+1 < Transfer-Encoding: chunked
+{"name":"User","id":4}
+
+14:58:47.445 [main] DEBUG com.intuit.karate - response time in milliseconds: 2248
+14:58:47.787 [main] INFO  com.intuit.karate - karate.env system property was: null 
+14:58:47.862 [main] DEBUG com.intuit.karate - 
+1 > GET https://jsonplaceholder.typicode.com/users
+1 > Accept-Encoding: gzip,deflate
+1 > Connection: Keep-Alive
+1 > Host: jsonplaceholder.typicode.com
+1 > User-Agent: Apache-HttpClient/4.5.3 (Java/1.8.0_121)
+
+14:59:30.383 [main] ERROR com.intuit.karate - org.apache.http.conn.HttpHostConnectException: Connect to jsonplaceholder.typicode.com:443 [jsonplaceholder.typicode.com/104.31.86.157, jsonplaceholder.typicode.com/104.31.87.157] failed: Connection timed out: connect, http call failed after 42523 milliseconds for URL: https://jsonplaceholder.typicode.com/users
+14:59:30.765 [main] INFO  com.intuit.karate - karate.env system property was: null 
+14:59:30.863 [main] DEBUG com.intuit.karate - 
+1 > POST https://jsonplaceholder.typicode.com/users
+1 > Accept-Encoding: gzip,deflate
+1 > Connection: Keep-Alive
+1 > Content-Length: 160
+1 > Content-Type: application/json
+1 > Host: jsonplaceholder.typicode.com
+1 > User-Agent: Apache-HttpClient/4.5.3 (Java/1.8.0_121)
+{"name":"Test User","username":"testuser","email":"test@user.com","address":{"street":"Has No Name","suite":"Apt. 123","city":"Electri","zipcode":"54321-6789"}}
+
+15:00:12.519 [main] ERROR com.intuit.karate - org.apache.http.conn.HttpHostConnectException: Connect to jsonplaceholder.typicode.com:443 [jsonplaceholder.typicode.com/104.31.86.157, jsonplaceholder.typicode.com/104.31.87.157] failed: Connection timed out: connect, http call failed after 41660 milliseconds for URL: https://jsonplaceholder.typicode.com/users
+15:02:47.179 [main] DEBUG c.i.karate.cucumber.CucumberRunner - init test class: class examples.ExamplesTest
+15:02:47.748 [main] DEBUG c.i.karate.cucumber.CucumberRunner - loading feature: /C:/Users/ramya.s/karate/myproject/target/test-classes/examples/character/character.feature
+15:02:47.919 [main] DEBUG c.i.karate.cucumber.CucumberRunner - loading feature: /C:/Users/ramya.s/karate/myproject/target/test-classes/examples/users/users.feature
+15:02:51.357 [main] INFO  com.intuit.karate - karate.env system property was: null 
+15:02:54.076 [main] DEBUG com.intuit.karate - 
+1 > POST http://localhost:8080/api/characters
+1 > Accept-Encoding: gzip,deflate
+1 > Connection: Keep-Alive
+1 > Content-Length: 22
+1 > Content-Type: application/json
+1 > Host: localhost:8080
+1 > User-Agent: Apache-HttpClient/4.5.3 (Java/1.8.0_121)
+{"id":4,"name":"User"}
+
+15:02:54.523 [main] DEBUG com.intuit.karate - 
+1 < 200
+1 < Content-Type: application/json;charset=UTF-8
+1 < Date: Thu, 17 Aug 2017 09:32:54 GMT
+1 < Server: Apache-Coyote/1.1
+1 < Transfer-Encoding: chunked
+{"name":"User","id":5}
+
+15:02:54.569 [main] DEBUG com.intuit.karate - response time in milliseconds: 2925
+15:02:54.805 [main] INFO  com.intuit.karate - karate.env system property was: null 
+15:02:55.193 [main] INFO  com.intuit.karate - karate.env system property was: null 
+15:02:55.321 [main] DEBUG com.intuit.karate - 
+1 > GET https://jsonplaceholder.typicode.com/users
+1 > Accept-Encoding: gzip,deflate
+1 > Connection: Keep-Alive
+1 > Host: jsonplaceholder.typicode.com
+1 > User-Agent: Apache-HttpClient/4.5.3 (Java/1.8.0_121)
+
+15:03:35.315 [main] ERROR com.intuit.karate - org.apache.http.conn.HttpHostConnectException: Connect to jsonplaceholder.typicode.com:443 [jsonplaceholder.typicode.com/104.31.87.157, jsonplaceholder.typicode.com/104.31.86.157] failed: Connection timed out: connect, http call failed after 39998 milliseconds for URL: https://jsonplaceholder.typicode.com/users
+15:03:35.468 [main] INFO  com.intuit.karate - karate.env system property was: null 
+15:03:35.534 [main] DEBUG com.intuit.karate - 
+1 > POST https://jsonplaceholder.typicode.com/users
+1 > Accept-Encoding: gzip,deflate
+1 > Connection: Keep-Alive
+1 > Content-Length: 160
+1 > Content-Type: application/json
+1 > Host: jsonplaceholder.typicode.com
+1 > User-Agent: Apache-HttpClient/4.5.3 (Java/1.8.0_121)
+{"name":"Test User","username":"testuser","email":"test@user.com","address":{"street":"Has No Name","suite":"Apt. 123","city":"Electri","zipcode":"54321-6789"}}
+
+15:04:15.926 [main] ERROR com.intuit.karate - org.apache.http.conn.HttpHostConnectException: Connect to jsonplaceholder.typicode.com:443 [jsonplaceholder.typicode.com/104.31.87.157, jsonplaceholder.typicode.com/104.31.86.157] failed: Connection timed out: connect, http call failed after 40392 milliseconds for URL: https://jsonplaceholder.typicode.com/users
+15:04:18.659 [main] DEBUG c.i.karate.cucumber.CucumberRunner - init test class: class examples.ExamplesTest
+15:04:19.309 [main] DEBUG c.i.karate.cucumber.CucumberRunner - loading feature: /C:/Users/ramya.s/karate/myproject/target/test-classes/examples/character/character.feature
+15:04:19.438 [main] DEBUG c.i.karate.cucumber.CucumberRunner - loading feature: /C:/Users/ramya.s/karate/myproject/target/test-classes/examples/users/users.feature
+15:04:21.613 [main] INFO  com.intuit.karate - karate.env system property was: null 
+15:04:23.444 [main] DEBUG com.intuit.karate - 
+1 > POST http://localhost:8080/api/characters
+1 > Accept-Encoding: gzip,deflate
+1 > Connection: Keep-Alive
+1 > Content-Length: 22
+1 > Content-Type: application/json
+1 > Host: localhost:8080
+1 > User-Agent: Apache-HttpClient/4.5.3 (Java/1.8.0_121)
+{"id":4,"name":"User"}
+
+15:04:23.855 [main] DEBUG com.intuit.karate - 
+1 < 200
+1 < Content-Type: application/json;charset=UTF-8
+1 < Date: Thu, 17 Aug 2017 09:34:23 GMT
+1 < Server: Apache-Coyote/1.1
+1 < Transfer-Encoding: chunked
+{"name":"User","id":6}
+
+15:04:23.858 [main] DEBUG com.intuit.karate - response time in milliseconds: 1959
+15:04:24.078 [main] INFO  com.intuit.karate - karate.env system property was: null 
+15:04:24.102 [main] DEBUG com.intuit.karate - 
+1 > DELETE http://localhost:8080/api/characters/2
+1 > Accept-Encoding: gzip,deflate
+1 > Connection: Keep-Alive
+1 > Host: localhost:8080
+1 > User-Agent: Apache-HttpClient/4.5.3 (Java/1.8.0_121)
+
+15:04:24.127 [main] DEBUG com.intuit.karate - 
+1 < 204
+1 < Date: Thu, 17 Aug 2017 09:34:23 GMT
+1 < Server: Apache-Coyote/1.1
+
+15:04:24.128 [main] DEBUG com.intuit.karate - response time in milliseconds: 29
+15:04:24.130 [main] ERROR com.intuit.karate - status code was: 204, expected: 500, response time: 29, url: http://localhost:8080/api/characters/2, response: 
+15:04:24.319 [main] INFO  com.intuit.karate - karate.env system property was: null 
+15:04:24.377 [main] DEBUG com.intuit.karate - 
+1 > GET https://jsonplaceholder.typicode.com/users
+1 > Accept-Encoding: gzip,deflate
+1 > Connection: Keep-Alive
+1 > Host: jsonplaceholder.typicode.com
+1 > User-Agent: Apache-HttpClient/4.5.3 (Java/1.8.0_121)
+
+15:05:06.454 [main] ERROR com.intuit.karate - org.apache.http.conn.HttpHostConnectException: Connect to jsonplaceholder.typicode.com:443 [jsonplaceholder.typicode.com/104.31.87.157, jsonplaceholder.typicode.com/104.31.86.157] failed: Connection timed out: connect, http call failed after 42085 milliseconds for URL: https://jsonplaceholder.typicode.com/users
+15:05:06.569 [main] INFO  com.intuit.karate - karate.env system property was: null 
+15:05:06.629 [main] DEBUG com.intuit.karate - 
+1 > POST https://jsonplaceholder.typicode.com/users
+1 > Accept-Encoding: gzip,deflate
+1 > Connection: Keep-Alive
+1 > Content-Length: 160
+1 > Content-Type: application/json
+1 > Host: jsonplaceholder.typicode.com
+1 > User-Agent: Apache-HttpClient/4.5.3 (Java/1.8.0_121)
+{"name":"Test User","username":"testuser","email":"test@user.com","address":{"street":"Has No Name","suite":"Apt. 123","city":"Electri","zipcode":"54321-6789"}}
+
+15:05:48.759 [main] ERROR com.intuit.karate - org.apache.http.conn.HttpHostConnectException: Connect to jsonplaceholder.typicode.com:443 [jsonplaceholder.typicode.com/104.31.87.157, jsonplaceholder.typicode.com/104.31.86.157] failed: Connection timed out: connect, http call failed after 42138 milliseconds for URL: https://jsonplaceholder.typicode.com/users
+15:06:55.924 [main] DEBUG c.i.karate.cucumber.CucumberRunner - init test class: class examples.ExamplesTest
+15:06:56.498 [main] DEBUG c.i.karate.cucumber.CucumberRunner - loading feature: /C:/Users/ramya.s/karate/myproject/target/test-classes/examples/character/character.feature
+15:06:56.660 [main] DEBUG c.i.karate.cucumber.CucumberRunner - loading feature: /C:/Users/ramya.s/karate/myproject/target/test-classes/examples/users/users.feature
+15:06:58.945 [main] INFO  com.intuit.karate - karate.env system property was: null 
+15:07:01.237 [main] DEBUG com.intuit.karate - 
+1 > POST http://localhost:8080/api/characters
+1 > Accept-Encoding: gzip,deflate
+1 > Connection: Keep-Alive
+1 > Content-Length: 22
+1 > Content-Type: application/json
+1 > Host: localhost:8080
+1 > User-Agent: Apache-HttpClient/4.5.3 (Java/1.8.0_121)
+{"id":4,"name":"User"}
+
+15:07:01.478 [main] DEBUG com.intuit.karate - 
+1 < 200
+1 < Content-Type: application/json;charset=UTF-8
+1 < Date: Thu, 17 Aug 2017 09:37:01 GMT
+1 < Server: Apache-Coyote/1.1
+1 < Transfer-Encoding: chunked
+{"name":"User","id":7}
+
+15:07:01.478 [main] DEBUG com.intuit.karate - response time in milliseconds: 2260
+15:07:01.655 [main] INFO  com.intuit.karate - karate.env system property was: null 
+15:07:02.109 [main] INFO  com.intuit.karate - karate.env system property was: null 
+15:07:02.177 [main] DEBUG com.intuit.karate - 
+1 > GET https://jsonplaceholder.typicode.com/users
+1 > Accept-Encoding: gzip,deflate
+1 > Connection: Keep-Alive
+1 > Host: jsonplaceholder.typicode.com
+1 > User-Agent: Apache-HttpClient/4.5.3 (Java/1.8.0_121)
+
+15:07:44.506 [main] ERROR com.intuit.karate - org.apache.http.conn.HttpHostConnectException: Connect to jsonplaceholder.typicode.com:443 [jsonplaceholder.typicode.com/104.31.86.157, jsonplaceholder.typicode.com/104.31.87.157] failed: Connection timed out: connect, http call failed after 42332 milliseconds for URL: https://jsonplaceholder.typicode.com/users
+15:07:44.721 [main] INFO  com.intuit.karate - karate.env system property was: null 
+15:07:44.830 [main] DEBUG com.intuit.karate - 
+1 > POST https://jsonplaceholder.typicode.com/users
+1 > Accept-Encoding: gzip,deflate
+1 > Connection: Keep-Alive
+1 > Content-Length: 160
+1 > Content-Type: application/json
+1 > Host: jsonplaceholder.typicode.com
+1 > User-Agent: Apache-HttpClient/4.5.3 (Java/1.8.0_121)
+{"name":"Test User","username":"testuser","email":"test@user.com","address":{"street":"Has No Name","suite":"Apt. 123","city":"Electri","zipcode":"54321-6789"}}
+
+15:08:20.799 [main] DEBUG c.i.karate.cucumber.CucumberRunner - init test class: class examples.ExamplesTest
+15:08:21.435 [main] DEBUG c.i.karate.cucumber.CucumberRunner - loading feature: /C:/Users/ramya.s/karate/myproject/target/test-classes/examples/character/character.feature
+15:08:21.625 [main] DEBUG c.i.karate.cucumber.CucumberRunner - loading feature: /C:/Users/ramya.s/karate/myproject/target/test-classes/examples/users/users.feature
+15:08:24.076 [main] INFO  com.intuit.karate - karate.env system property was: null 
+15:08:26.086 [main] DEBUG com.intuit.karate - 
+1 > POST http://localhost:8080/api/characters
+1 > Accept-Encoding: gzip,deflate
+1 > Connection: Keep-Alive
+1 > Content-Length: 22
+1 > Content-Type: application/json
+1 > Host: localhost:8080
+1 > User-Agent: Apache-HttpClient/4.5.3 (Java/1.8.0_121)
+{"id":4,"name":"User"}
+
+15:08:26.336 [main] DEBUG com.intuit.karate - 
+1 < 200
+1 < Content-Type: application/json;charset=UTF-8
+1 < Date: Thu, 17 Aug 2017 09:38:26 GMT
+1 < Server: Apache-Coyote/1.1
+1 < Transfer-Encoding: chunked
+{"name":"User","id":8}
+
+15:08:26.351 [main] DEBUG com.intuit.karate - response time in milliseconds: 2014
+15:08:26.442 [main] INFO  com.intuit.karate - karate.env system property was: null 
+15:08:26.457 [main] DEBUG com.intuit.karate - 
+1 > DELETE http://localhost:8080/api/characters/2
+1 > Accept-Encoding: gzip,deflate
+1 > Connection: Keep-Alive
+1 > Host: localhost:8080
+1 > User-Agent: Apache-HttpClient/4.5.3 (Java/1.8.0_121)
+
+15:08:26.645 [main] DEBUG com.intuit.karate - 
+1 < 500
+1 < Connection: close
+1 < Content-Type: application/json;charset=UTF-8
+1 < Date: Thu, 17 Aug 2017 09:38:26 GMT
+1 < Server: Apache-Coyote/1.1
+1 < Transfer-Encoding: chunked
+{"timestamp":1502962706638,"status":500,"error":"Internal Server Error","exception":"org.springframework.dao.EmptyResultDataAccessException","message":"No class com.Character.Character entity with id 2 exists!","path":"/api/characters/2"}
+
+15:08:26.646 [main] DEBUG com.intuit.karate - response time in milliseconds: 189
+15:08:26.851 [main] INFO  com.intuit.karate - karate.env system property was: null 
+15:08:26.931 [main] DEBUG com.intuit.karate - 
+1 > GET https://jsonplaceholder.typicode.com/users
+1 > Accept-Encoding: gzip,deflate
+1 > Connection: Keep-Alive
+1 > Host: jsonplaceholder.typicode.com
+1 > User-Agent: Apache-HttpClient/4.5.3 (Java/1.8.0_121)
+
+15:08:26.952 [main] ERROR com.intuit.karate - org.apache.http.conn.HttpHostConnectException: Connect to jsonplaceholder.typicode.com:443 [jsonplaceholder.typicode.com/104.31.86.157, jsonplaceholder.typicode.com/104.31.87.157] failed: Connection timed out: connect, http call failed after 42125 milliseconds for URL: https://jsonplaceholder.typicode.com/users
+15:09:08.836 [main] ERROR com.intuit.karate - org.apache.http.conn.HttpHostConnectException: Connect to jsonplaceholder.typicode.com:443 [jsonplaceholder.typicode.com/104.31.86.157, jsonplaceholder.typicode.com/104.31.87.157] failed: Connection timed out: connect, http call failed after 41910 milliseconds for URL: https://jsonplaceholder.typicode.com/users
+15:09:09.066 [main] INFO  com.intuit.karate - karate.env system property was: null 
+15:09:09.206 [main] DEBUG com.intuit.karate - 
+1 > POST https://jsonplaceholder.typicode.com/users
+1 > Accept-Encoding: gzip,deflate
+1 > Connection: Keep-Alive
+1 > Content-Length: 160
+1 > Content-Type: application/json
+1 > Host: jsonplaceholder.typicode.com
+1 > User-Agent: Apache-HttpClient/4.5.3 (Java/1.8.0_121)
+{"name":"Test User","username":"testuser","email":"test@user.com","address":{"street":"Has No Name","suite":"Apt. 123","city":"Electri","zipcode":"54321-6789"}}
+
+15:09:52.504 [main] ERROR com.intuit.karate - org.apache.http.conn.HttpHostConnectException: Connect to jsonplaceholder.typicode.com:443 [jsonplaceholder.typicode.com/104.31.86.157, jsonplaceholder.typicode.com/104.31.87.157] failed: Connection timed out: connect, http call failed after 43303 milliseconds for URL: https://jsonplaceholder.typicode.com/users
+15:12:10.601 [main] DEBUG c.i.karate.cucumber.CucumberRunner - init test class: class examples.ExamplesTest
+15:12:11.251 [main] DEBUG c.i.karate.cucumber.CucumberRunner - loading feature: /C:/Users/ramya.s/karate/myproject/target/test-classes/examples/character/character.feature
+15:12:11.402 [main] DEBUG c.i.karate.cucumber.CucumberRunner - loading feature: /C:/Users/ramya.s/karate/myproject/target/test-classes/examples/users/users.feature
+15:12:13.742 [main] INFO  com.intuit.karate - karate.env system property was: null 
+15:12:15.754 [main] DEBUG com.intuit.karate - 
+1 > POST http://localhost:8080/api/characters
+1 > Accept-Encoding: gzip,deflate
+1 > Connection: Keep-Alive
+1 > Content-Length: 22
+1 > Content-Type: application/json
+1 > Host: localhost:8080
+1 > User-Agent: Apache-HttpClient/4.5.3 (Java/1.8.0_121)
+{"id":4,"name":"User"}
+
+15:12:16.467 [main] DEBUG com.intuit.karate - 
+1 < 200
+1 < Content-Type: application/json;charset=UTF-8
+1 < Date: Thu, 17 Aug 2017 09:42:16 GMT
+1 < Server: Apache-Coyote/1.1
+1 < Transfer-Encoding: chunked
+{"name":"User","id":9}
+
+15:12:16.467 [main] DEBUG com.intuit.karate - response time in milliseconds: 2371
+15:12:16.742 [main] INFO  com.intuit.karate - karate.env system property was: null 
+15:12:16.773 [main] DEBUG com.intuit.karate - 
+1 > DELETE http://localhost:8080/api/characters/2
+1 > Accept-Encoding: gzip,deflate
+1 > Connection: Keep-Alive
+1 > Host: localhost:8080
+1 > User-Agent: Apache-HttpClient/4.5.3 (Java/1.8.0_121)
+
+15:12:17.460 [main] DEBUG com.intuit.karate - 
+1 < 500
+1 < Connection: close
+1 < Content-Type: application/json;charset=UTF-8
+1 < Date: Thu, 17 Aug 2017 09:42:16 GMT
+1 < Server: Apache-Coyote/1.1
+1 < Transfer-Encoding: chunked
+{"timestamp":1502962937390,"status":500,"error":"Internal Server Error","exception":"org.springframework.dao.EmptyResultDataAccessException","message":"No class com.Character.Character entity with id 2 exists!","path":"/api/characters/2"}
+
+15:12:17.461 [main] DEBUG com.intuit.karate - response time in milliseconds: 688
+15:12:17.575 [main] INFO  com.intuit.karate - karate.env system property was: null 
+15:12:17.659 [main] DEBUG com.intuit.karate - 
+1 > PUT http://localhost:8080/api/characters/4
+1 > Accept-Encoding: gzip,deflate
+1 > Connection: Keep-Alive
+1 > Content-Length: 22
+1 > Content-Type: application/json
+1 > Host: localhost:8080
+1 > User-Agent: Apache-HttpClient/4.5.3 (Java/1.8.0_121)
+{"id":4,"name":"subi"}
+
+15:12:17.908 [main] DEBUG com.intuit.karate - 
+1 < 200
+1 < Content-Type: application/json;charset=UTF-8
+1 < Date: Thu, 17 Aug 2017 09:42:17 GMT
+1 < Server: Apache-Coyote/1.1
+1 < Transfer-Encoding: chunked
+{"name":"subi","id":4}
+
+15:12:17.910 [main] DEBUG com.intuit.karate - response time in milliseconds: 253
+15:12:18.212 [main] INFO  com.intuit.karate - karate.env system property was: null 
+15:12:18.436 [main] DEBUG com.intuit.karate - 
+1 > GET https://jsonplaceholder.typicode.com/users
+1 > Accept-Encoding: gzip,deflate
+1 > Connection: Keep-Alive
+1 > Host: jsonplaceholder.typicode.com
+1 > User-Agent: Apache-HttpClient/4.5.3 (Java/1.8.0_121)
+
+15:13:00.849 [main] ERROR com.intuit.karate - org.apache.http.conn.HttpHostConnectException: Connect to jsonplaceholder.typicode.com:443 [jsonplaceholder.typicode.com/104.31.86.157, jsonplaceholder.typicode.com/104.31.87.157] failed: Connection timed out: connect, http call failed after 42415 milliseconds for URL: https://jsonplaceholder.typicode.com/users
+15:13:00.994 [main] INFO  com.intuit.karate - karate.env system property was: null 
+15:13:01.061 [main] DEBUG com.intuit.karate - 
+1 > POST https://jsonplaceholder.typicode.com/users
+1 > Accept-Encoding: gzip,deflate
+1 > Connection: Keep-Alive
+1 > Content-Length: 160
+1 > Content-Type: application/json
+1 > Host: jsonplaceholder.typicode.com
+1 > User-Agent: Apache-HttpClient/4.5.3 (Java/1.8.0_121)
+{"name":"Test User","username":"testuser","email":"test@user.com","address":{"street":"Has No Name","suite":"Apt. 123","city":"Electri","zipcode":"54321-6789"}}
+
+15:13:42.440 [main] ERROR com.intuit.karate - org.apache.http.conn.HttpHostConnectException: Connect to jsonplaceholder.typicode.com:443 [jsonplaceholder.typicode.com/104.31.86.157, jsonplaceholder.typicode.com/104.31.87.157] failed: Connection timed out: connect, http call failed after 41382 milliseconds for URL: https://jsonplaceholder.typicode.com/users
+15:19:54.517 [main] DEBUG c.i.karate.cucumber.CucumberRunner - init test class: class examples.ExamplesTest
+15:19:55.195 [main] DEBUG c.i.karate.cucumber.CucumberRunner - loading feature: /C:/Users/ramya.s/karate/myproject/target/test-classes/examples/character/character.feature
+15:19:55.326 [main] DEBUG c.i.karate.cucumber.CucumberRunner - loading feature: /C:/Users/ramya.s/karate/myproject/target/test-classes/examples/users/users.feature
+15:19:57.933 [main] INFO  com.intuit.karate - karate.env system property was: null 
+15:20:00.042 [main] DEBUG com.intuit.karate - 
+1 > POST http://localhost:8080/api/characters
+1 > Accept-Encoding: gzip,deflate
+1 > Connection: Keep-Alive
+1 > Content-Length: 22
+1 > Content-Type: application/json
+1 > Host: localhost:8080
+1 > User-Agent: Apache-HttpClient/4.5.3 (Java/1.8.0_121)
+{"id":4,"name":"User"}
+
+15:20:28.766 [main] DEBUG com.intuit.karate - 
+1 < 200
+1 < Content-Type: application/json;charset=UTF-8
+1 < Date: Thu, 17 Aug 2017 09:50:27 GMT
+1 < Server: Apache-Coyote/1.1
+1 < Transfer-Encoding: chunked
+{"name":"User","id":10}
+
+15:20:28.766 [main] DEBUG com.intuit.karate - response time in milliseconds: 30496
+15:20:28.948 [main] INFO  com.intuit.karate - karate.env system property was: null 
+15:20:28.974 [main] DEBUG com.intuit.karate - 
+1 > DELETE http://localhost:8080/api/characters/2
+1 > Accept-Encoding: gzip,deflate
+1 > Connection: Keep-Alive
+1 > Host: localhost:8080
+1 > User-Agent: Apache-HttpClient/4.5.3 (Java/1.8.0_121)
+
+15:20:36.334 [main] DEBUG com.intuit.karate - 
+1 < 500
+1 < Connection: close
+1 < Content-Type: application/json;charset=UTF-8
+1 < Date: Thu, 17 Aug 2017 09:50:36 GMT
+1 < Server: Apache-Coyote/1.1
+1 < Transfer-Encoding: chunked
+{"timestamp":1502963435792,"status":500,"error":"Internal Server Error","exception":"org.springframework.dao.EmptyResultDataAccessException","message":"No class com.Character.Character entity with id 2 exists!","path":"/api/characters/2"}
+
+15:20:36.335 [main] DEBUG com.intuit.karate - response time in milliseconds: 7365
+15:20:36.548 [main] INFO  com.intuit.karate - karate.env system property was: null 
+15:20:36.613 [main] DEBUG com.intuit.karate - 
+1 > PUT http://localhost:8080/api/characters/4
+1 > Accept-Encoding: gzip,deflate
+1 > Connection: Keep-Alive
+1 > Content-Length: 22
+1 > Content-Type: application/json
+1 > Host: localhost:8080
+1 > User-Agent: Apache-HttpClient/4.5.3 (Java/1.8.0_121)
+{"id":4,"name":"subi"}
+
+15:20:39.386 [main] DEBUG com.intuit.karate - 
+1 < 200
+1 < Content-Type: application/json;charset=UTF-8
+1 < Date: Thu, 17 Aug 2017 09:50:39 GMT
+1 < Server: Apache-Coyote/1.1
+1 < Transfer-Encoding: chunked
+{"name":"subi","id":4}
+
+15:20:39.387 [main] DEBUG com.intuit.karate - response time in milliseconds: 2777
+15:20:39.577 [main] INFO  com.intuit.karate - karate.env system property was: null 
+15:20:39.866 [main] DEBUG com.intuit.karate - 
+1 > GET https://jsonplaceholder.typicode.com/users
+1 > Accept-Encoding: gzip,deflate
+1 > Connection: Keep-Alive
+1 > Host: jsonplaceholder.typicode.com
+1 > User-Agent: Apache-HttpClient/4.5.3 (Java/1.8.0_121)
+
+15:21:21.246 [main] ERROR com.intuit.karate - org.apache.http.conn.HttpHostConnectException: Connect to jsonplaceholder.typicode.com:443 [jsonplaceholder.typicode.com/104.31.87.157, jsonplaceholder.typicode.com/104.31.86.157] failed: Connection timed out: connect, http call failed after 41382 milliseconds for URL: https://jsonplaceholder.typicode.com/users
+15:21:21.406 [main] INFO  com.intuit.karate - karate.env system property was: null 
+15:21:21.545 [main] DEBUG com.intuit.karate - 
+1 > POST https://jsonplaceholder.typicode.com/users
+1 > Accept-Encoding: gzip,deflate
+1 > Connection: Keep-Alive
+1 > Content-Length: 160
+1 > Content-Type: application/json
+1 > Host: jsonplaceholder.typicode.com
+1 > User-Agent: Apache-HttpClient/4.5.3 (Java/1.8.0_121)
+{"name":"Test User","username":"testuser","email":"test@user.com","address":{"street":"Has No Name","suite":"Apt. 123","city":"Electri","zipcode":"54321-6789"}}
+
+15:22:04.362 [main] ERROR com.intuit.karate - org.apache.http.conn.HttpHostConnectException: Connect to jsonplaceholder.typicode.com:443 [jsonplaceholder.typicode.com/104.31.87.157, jsonplaceholder.typicode.com/104.31.86.157] failed: Connection timed out: connect, http call failed after 42831 milliseconds for URL: https://jsonplaceholder.typicode.com/users
+15:23:16.564 [main] DEBUG c.i.karate.cucumber.CucumberRunner - init test class: class examples.ExamplesTest
+15:23:17.275 [main] DEBUG c.i.karate.cucumber.CucumberRunner - loading feature: /C:/Users/ramya.s/karate/myproject/target/test-classes/examples/character/character.feature
+15:23:17.389 [main] DEBUG c.i.karate.cucumber.CucumberRunner - loading feature: /C:/Users/ramya.s/karate/myproject/target/test-classes/examples/users/users.feature
+15:23:23.836 [main] INFO  com.intuit.karate - karate.env system property was: null 
+15:23:39.821 [main] DEBUG com.intuit.karate - 
+1 > POST http://localhost:8080/api/characters
+1 > Accept-Encoding: gzip,deflate
+1 > Connection: Keep-Alive
+1 > Content-Length: 22
+1 > Content-Type: application/json
+1 > Host: localhost:8080
+1 > User-Agent: Apache-HttpClient/4.5.3 (Java/1.8.0_121)
+{"id":4,"name":"User"}
+
+15:23:44.589 [main] DEBUG com.intuit.karate - 
+1 < 200
+1 < Content-Type: application/json;charset=UTF-8
+1 < Date: Thu, 17 Aug 2017 09:53:44 GMT
+1 < Server: Apache-Coyote/1.1
+1 < Transfer-Encoding: chunked
+{"name":"User","id":11}
+
+15:23:44.687 [main] DEBUG com.intuit.karate - response time in milliseconds: 18639
+15:23:45.053 [main] INFO  com.intuit.karate - karate.env system property was: null 
+15:23:45.126 [main] DEBUG com.intuit.karate - 
+1 > DELETE http://localhost:8080/api/characters/2
+1 > Accept-Encoding: gzip,deflate
+1 > Connection: Keep-Alive
+1 > Host: localhost:8080
+1 > User-Agent: Apache-HttpClient/4.5.3 (Java/1.8.0_121)
+
+15:23:47.054 [main] DEBUG com.intuit.karate - 
+1 < 500
+1 < Connection: close
+1 < Content-Type: application/json;charset=UTF-8
+1 < Date: Thu, 17 Aug 2017 09:53:46 GMT
+1 < Server: Apache-Coyote/1.1
+1 < Transfer-Encoding: chunked
+{"timestamp":1502963626948,"status":500,"error":"Internal Server Error","exception":"org.springframework.dao.EmptyResultDataAccessException","message":"No class com.Character.Character entity with id 2 exists!","path":"/api/characters/2"}
+
+15:23:47.054 [main] DEBUG com.intuit.karate - response time in milliseconds: 1931
+15:23:47.272 [main] INFO  com.intuit.karate - karate.env system property was: null 
+15:23:47.310 [main] DEBUG com.intuit.karate - 
+1 > PUT http://localhost:8080/api/characters/4
+1 > Accept-Encoding: gzip,deflate
+1 > Connection: Keep-Alive
+1 > Content-Length: 22
+1 > Content-Type: application/json
+1 > Host: localhost:8080
+1 > User-Agent: Apache-HttpClient/4.5.3 (Java/1.8.0_121)
+{"id":4,"name":"subi"}
+
+15:23:53.241 [main] DEBUG com.intuit.karate - 
+1 < 200
+1 < Content-Type: application/json;charset=UTF-8
+1 < Date: Thu, 17 Aug 2017 09:53:53 GMT
+1 < Server: Apache-Coyote/1.1
+1 < Transfer-Encoding: chunked
+{"name":"subi","id":4}
+
+15:23:53.257 [main] DEBUG com.intuit.karate - response time in milliseconds: 5949
+15:23:53.619 [main] INFO  com.intuit.karate - karate.env system property was: null 
+15:23:54.072 [main] DEBUG com.intuit.karate - 
+1 > GET https://jsonplaceholder.typicode.com/users
+1 > Accept-Encoding: gzip,deflate
+1 > Connection: Keep-Alive
+1 > Host: jsonplaceholder.typicode.com
+1 > User-Agent: Apache-HttpClient/4.5.3 (Java/1.8.0_121)
+
+15:24:36.098 [main] ERROR com.intuit.karate - org.apache.http.conn.HttpHostConnectException: Connect to jsonplaceholder.typicode.com:443 [jsonplaceholder.typicode.com/104.31.87.157, jsonplaceholder.typicode.com/104.31.86.157] failed: Connection timed out: connect, http call failed after 42041 milliseconds for URL: https://jsonplaceholder.typicode.com/users
+15:24:36.317 [main] INFO  com.intuit.karate - karate.env system property was: null 
+15:24:36.412 [main] DEBUG com.intuit.karate - 
+1 > POST https://jsonplaceholder.typicode.com/users
+1 > Accept-Encoding: gzip,deflate
+1 > Connection: Keep-Alive
+1 > Content-Length: 160
+1 > Content-Type: application/json
+1 > Host: jsonplaceholder.typicode.com
+1 > User-Agent: Apache-HttpClient/4.5.3 (Java/1.8.0_121)
+{"name":"Test User","username":"testuser","email":"test@user.com","address":{"street":"Has No Name","suite":"Apt. 123","city":"Electri","zipcode":"54321-6789"}}
+
+15:25:16.992 [main] ERROR com.intuit.karate - org.apache.http.conn.HttpHostConnectException: Connect to jsonplaceholder.typicode.com:443 [jsonplaceholder.typicode.com/104.31.87.157, jsonplaceholder.typicode.com/104.31.86.157] failed: Connection timed out: connect, http call failed after 40584 milliseconds for URL: https://jsonplaceholder.typicode.com/users
+15:26:03.350 [main] DEBUG c.i.karate.cucumber.CucumberRunner - init test class: class examples.ExamplesTest
+15:26:04.015 [main] DEBUG c.i.karate.cucumber.CucumberRunner - loading feature: /C:/Users/ramya.s/karate/myproject/target/test-classes/examples/character/character.feature
+15:26:04.163 [main] DEBUG c.i.karate.cucumber.CucumberRunner - loading feature: /C:/Users/ramya.s/karate/myproject/target/test-classes/examples/users/users.feature
+15:26:06.984 [main] INFO  com.intuit.karate - karate.env system property was: null 
+15:26:09.007 [main] DEBUG com.intuit.karate - 
+1 > POST http://localhost:8080/api/characters
+1 > Accept-Encoding: gzip,deflate
+1 > Connection: Keep-Alive
+1 > Content-Length: 22
+1 > Content-Type: application/json
+1 > Host: localhost:8080
+1 > User-Agent: Apache-HttpClient/4.5.3 (Java/1.8.0_121)
+{"id":4,"name":"User"}
+
+15:26:11.264 [main] DEBUG com.intuit.karate - 
+1 < 200
+1 < Content-Type: application/json;charset=UTF-8
+1 < Date: Thu, 17 Aug 2017 09:56:11 GMT
+1 < Server: Apache-Coyote/1.1
+1 < Transfer-Encoding: chunked
+{"name":"User","id":12}
+
+15:26:11.269 [main] DEBUG com.intuit.karate - response time in milliseconds: 3986
+15:26:11.442 [main] INFO  com.intuit.karate - karate.env system property was: null 
+15:26:11.482 [main] DEBUG com.intuit.karate - 
+1 > DELETE http://localhost:8080/api/characters/6
+1 > Accept-Encoding: gzip,deflate
+1 > Connection: Keep-Alive
+1 > Host: localhost:8080
+1 > User-Agent: Apache-HttpClient/4.5.3 (Java/1.8.0_121)
+
+15:26:13.718 [main] DEBUG com.intuit.karate - 
+1 < 204
+1 < Date: Thu, 17 Aug 2017 09:56:13 GMT
+1 < Server: Apache-Coyote/1.1
+
+15:26:13.718 [main] DEBUG com.intuit.karate - response time in milliseconds: 2239
+15:26:13.720 [main] ERROR com.intuit.karate - status code was: 204, expected: 500, response time: 2239, url: http://localhost:8080/api/characters/6, response: 
+15:26:13.862 [main] INFO  com.intuit.karate - karate.env system property was: null 
+15:26:13.905 [main] DEBUG com.intuit.karate - 
+1 > PUT http://localhost:8080/api/characters/8
+1 > Accept-Encoding: gzip,deflate
+1 > Connection: Keep-Alive
+1 > Content-Length: 25
+1 > Content-Type: application/json
+1 > Host: localhost:8080
+1 > User-Agent: Apache-HttpClient/4.5.3 (Java/1.8.0_121)
+{"id":8,"name":"Brightz"}
+
+15:26:14.821 [main] DEBUG com.intuit.karate - 
+1 < 200
+1 < Content-Type: application/json;charset=UTF-8
+1 < Date: Thu, 17 Aug 2017 09:56:14 GMT
+1 < Server: Apache-Coyote/1.1
+1 < Transfer-Encoding: chunked
+{"name":"Brightz","id":8}
+
+15:26:14.822 [main] DEBUG com.intuit.karate - response time in milliseconds: 919
+15:26:14.980 [main] INFO  com.intuit.karate - karate.env system property was: null 
+15:26:15.074 [main] DEBUG com.intuit.karate - 
+1 > GET https://jsonplaceholder.typicode.com/users
+1 > Accept-Encoding: gzip,deflate
+1 > Connection: Keep-Alive
+1 > Host: jsonplaceholder.typicode.com
+1 > User-Agent: Apache-HttpClient/4.5.3 (Java/1.8.0_121)
+
+15:26:56.579 [main] ERROR com.intuit.karate - org.apache.http.conn.HttpHostConnectException: Connect to jsonplaceholder.typicode.com:443 [jsonplaceholder.typicode.com/104.31.87.157, jsonplaceholder.typicode.com/104.31.86.157] failed: Connection timed out: connect, http call failed after 41506 milliseconds for URL: https://jsonplaceholder.typicode.com/users
+15:26:56.810 [main] INFO  com.intuit.karate - karate.env system property was: null 
+15:26:56.908 [main] DEBUG com.intuit.karate - 
+1 > POST https://jsonplaceholder.typicode.com/users
+1 > Accept-Encoding: gzip,deflate
+1 > Connection: Keep-Alive
+1 > Content-Length: 160
+1 > Content-Type: application/json
+1 > Host: jsonplaceholder.typicode.com
+1 > User-Agent: Apache-HttpClient/4.5.3 (Java/1.8.0_121)
+{"name":"Test User","username":"testuser","email":"test@user.com","address":{"street":"Has No Name","suite":"Apt. 123","city":"Electri","zipcode":"54321-6789"}}
+
+15:27:38.350 [main] ERROR com.intuit.karate - org.apache.http.conn.HttpHostConnectException: Connect to jsonplaceholder.typicode.com:443 [jsonplaceholder.typicode.com/104.31.87.157, jsonplaceholder.typicode.com/104.31.86.157] failed: Connection timed out: connect, http call failed after 41446 milliseconds for URL: https://jsonplaceholder.typicode.com/users
+18:54:52.380 [main] DEBUG c.i.karate.cucumber.CucumberRunner - init test class: class examples.ExamplesTest
+18:54:53.282 [main] DEBUG c.i.karate.cucumber.CucumberRunner - loading feature: /C:/Users/ramya.s/karate/myproject/target/test-classes/examples/character/character.feature
+18:55:05.100 [main] INFO  com.intuit.karate - karate.env system property was: null 
+18:55:11.558 [main] DEBUG com.intuit.karate - 
+1 > POST http://localhost:8080/api/characters
+1 > Accept-Encoding: gzip,deflate
+1 > Connection: Keep-Alive
+1 > Content-Length: 23
+1 > Content-Type: application/json
+1 > Host: localhost:8080
+1 > User-Agent: Apache-HttpClient/4.5.3 (Java/1.8.0_121)
+{"id":13,"name":"dolu"}
+
+18:55:23.705 [main] DEBUG com.intuit.karate - 
+1 < 200
+1 < Content-Type: application/json;charset=UTF-8
+1 < Date: Thu, 17 Aug 2017 13:25:23 GMT
+1 < Server: Apache-Coyote/1.1
+1 < Transfer-Encoding: chunked
+{"name":"dolu","id":1}
+
+18:55:23.736 [main] DEBUG com.intuit.karate - response time in milliseconds: 17793
+18:55:24.000 [main] INFO  com.intuit.karate - karate.env system property was: null 
+18:55:24.046 [main] DEBUG com.intuit.karate - 
+1 > DELETE http://localhost:8080/api/characters/7
+1 > Accept-Encoding: gzip,deflate
+1 > Connection: Keep-Alive
+1 > Host: localhost:8080
+1 > User-Agent: Apache-HttpClient/4.5.3 (Java/1.8.0_121)
+
+18:55:25.835 [main] DEBUG com.intuit.karate - 
+1 < 500
+1 < Connection: close
+1 < Content-Type: application/json;charset=UTF-8
+1 < Date: Thu, 17 Aug 2017 13:25:25 GMT
+1 < Server: Apache-Coyote/1.1
+1 < Transfer-Encoding: chunked
+{"timestamp":1502976325602,"status":500,"error":"Internal Server Error","exception":"org.springframework.dao.EmptyResultDataAccessException","message":"No class com.Character.Character entity with id 7 exists!","path":"/api/characters/7"}
+
+18:55:25.835 [main] DEBUG com.intuit.karate - response time in milliseconds: 1789
+18:55:25.959 [main] INFO  com.intuit.karate - karate.env system property was: null 
+18:55:26.022 [main] DEBUG com.intuit.karate - 
+1 > PUT http://localhost:8080/api/characters/12
+1 > Accept-Encoding: gzip,deflate
+1 > Connection: Keep-Alive
+1 > Content-Length: 23
+1 > Content-Type: application/json
+1 > Host: localhost:8080
+1 > User-Agent: Apache-HttpClient/4.5.3 (Java/1.8.0_121)
+{"id":12,"name":"bolu"}
+
+18:55:26.579 [main] DEBUG com.intuit.karate - 
+1 < 500
+1 < Connection: close
+1 < Content-Type: application/json;charset=UTF-8
+1 < Date: Thu, 17 Aug 2017 13:25:25 GMT
+1 < Server: Apache-Coyote/1.1
+1 < Transfer-Encoding: chunked
+{"timestamp":1502976326566,"status":500,"error":"Internal Server Error","exception":"javax.persistence.EntityNotFoundException","message":"Unable to find com.Character.Character with id 12","path":"/api/characters/12"}
+
+18:55:26.579 [main] DEBUG com.intuit.karate - response time in milliseconds: 557
+18:55:26.581 [main] ERROR com.intuit.karate - status code was: 500, expected: 200, response time: 557, url: http://localhost:8080/api/characters/12, response: {"timestamp":1502976326566,"status":500,"error":"Internal Server Error","exception":"javax.persistence.EntityNotFoundException","message":"Unable to find com.Character.Character with id 12","path":"/api/characters/12"}
+19:01:17.867 [main] DEBUG c.i.karate.cucumber.CucumberRunner - init test class: class examples.ExamplesTest
+19:01:19.710 [main] DEBUG c.i.karate.cucumber.CucumberRunner - loading feature: /C:/Users/ramya.s/karate/myproject/target/test-classes/examples/character/character.feature
+19:01:24.246 [main] INFO  com.intuit.karate - karate.env system property was: null 
+19:01:27.665 [main] DEBUG com.intuit.karate - 
+1 > POST http://localhost:8080/api/characters
+1 > Accept-Encoding: gzip,deflate
+1 > Connection: Keep-Alive
+1 > Content-Length: 22
+1 > Content-Type: application/json
+1 > Host: localhost:8080
+1 > User-Agent: Apache-HttpClient/4.5.3 (Java/1.8.0_121)
+{"id":2,"name":"bolu"}
+
+19:01:28.052 [main] DEBUG com.intuit.karate - 
+1 < 200
+1 < Content-Type: application/json;charset=UTF-8
+1 < Date: Thu, 17 Aug 2017 13:31:28 GMT
+1 < Server: Apache-Coyote/1.1
+1 < Transfer-Encoding: chunked
+{"name":"bolu","id":2}
+
+19:01:28.074 [main] DEBUG com.intuit.karate - response time in milliseconds: 3481
+19:01:28.428 [main] INFO  com.intuit.karate - karate.env system property was: null 
+19:01:28.480 [main] DEBUG com.intuit.karate - 
+1 > DELETE http://localhost:8080/api/characters/1
+1 > Accept-Encoding: gzip,deflate
+1 > Connection: Keep-Alive
+1 > Host: localhost:8080
+1 > User-Agent: Apache-HttpClient/4.5.3 (Java/1.8.0_121)
+
+19:01:29.734 [main] DEBUG com.intuit.karate - 
+1 < 204
+1 < Date: Thu, 17 Aug 2017 13:31:29 GMT
+1 < Server: Apache-Coyote/1.1
+
+19:01:29.735 [main] DEBUG com.intuit.karate - response time in milliseconds: 1255
+19:01:29.736 [main] ERROR com.intuit.karate - status code was: 204, expected: 500, response time: 1255, url: http://localhost:8080/api/characters/1, response: 
+19:05:18.968 [main] DEBUG c.i.karate.cucumber.CucumberRunner - init test class: class examples.ExamplesTest
+19:05:20.596 [main] DEBUG c.i.karate.cucumber.CucumberRunner - loading feature: /C:/Users/ramya.s/karate/myproject/target/test-classes/examples/character/character.feature
+19:05:25.979 [main] INFO  com.intuit.karate - karate.env system property was: null 
+19:05:31.507 [main] DEBUG com.intuit.karate - 
+1 > POST http://localhost:8080/api/characters
+1 > Accept-Encoding: gzip,deflate
+1 > Connection: Keep-Alive
+1 > Content-Length: 21
+1 > Content-Type: application/json
+1 > Host: localhost:8080
+1 > User-Agent: Apache-HttpClient/4.5.3 (Java/1.8.0_121)
+{"id":1,"name":"goo"}
+
+19:05:32.315 [main] DEBUG com.intuit.karate - 
+1 < 200
+1 < Content-Type: application/json;charset=UTF-8
+1 < Date: Thu, 17 Aug 2017 13:35:32 GMT
+1 < Server: Apache-Coyote/1.1
+1 < Transfer-Encoding: chunked
+{"name":"goo","id":5}
+
+19:05:32.347 [main] DEBUG com.intuit.karate - response time in milliseconds: 4238
+19:05:32.512 [main] INFO  com.intuit.karate - karate.env system property was: null 
+19:05:32.534 [main] DEBUG com.intuit.karate - 
+1 > DELETE http://localhost:8080/api/characters/2
+1 > Accept-Encoding: gzip,deflate
+1 > Connection: Keep-Alive
+1 > Host: localhost:8080
+1 > User-Agent: Apache-HttpClient/4.5.3 (Java/1.8.0_121)
+
+19:05:32.937 [main] DEBUG com.intuit.karate - 
+1 < 204
+1 < Date: Thu, 17 Aug 2017 13:35:32 GMT
+1 < Server: Apache-Coyote/1.1
+
+19:05:32.937 [main] DEBUG com.intuit.karate - response time in milliseconds: 406
+19:05:32.937 [main] ERROR com.intuit.karate - status code was: 204, expected: 500, response time: 406, url: http://localhost:8080/api/characters/2, response: 
